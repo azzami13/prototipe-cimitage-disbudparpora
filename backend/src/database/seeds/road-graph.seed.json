@@ -1,0 +1,245 @@
+{
+  "metadata": {
+    "name": "Dummy Road Graph Cimahi Heritage",
+    "description": "Data awal graph jalan untuk pengujian DestinationNode, DestinationDistance, dan /api/graph/rebuild. Format ini sengaja dibuat dekat dengan output hasil olahan OSM/QGIS.",
+    "coordinateSystem": "EPSG:4326",
+    "distanceUnit": "kilometer"
+  },
+  "nodes": [
+    {
+      "code": "RN-ALUN-ALUN-CIMAHI",
+      "name": "Simpang Alun-alun Cimahi",
+      "type": "intersection",
+      "latitude": -6.8748,
+      "longitude": 107.5383
+    },
+    {
+      "code": "RN-LOJI",
+      "name": "Node Jalan Loji",
+      "type": "road_vertex",
+      "latitude": -6.8736,
+      "longitude": 107.5388
+    },
+    {
+      "code": "RN-PENDOPO",
+      "name": "Node Pendopo Cimahi",
+      "type": "road_vertex",
+      "latitude": -6.8755,
+      "longitude": 107.5387
+    },
+    {
+      "code": "RN-AMIR-MACHMUD-KARANGMEKAR",
+      "name": "Jalan Amir Machmud Karangmekar",
+      "type": "road_vertex",
+      "latitude": -6.8775,
+      "longitude": 107.5398
+    },
+    {
+      "code": "RN-PUSDIKHUB",
+      "name": "Node Pusdikhub",
+      "type": "road_vertex",
+      "latitude": -6.8812,
+      "longitude": 107.5373
+    },
+    {
+      "code": "RN-STASIUN-CIMAHI",
+      "name": "Simpang Stasiun Cimahi",
+      "type": "intersection",
+      "latitude": -6.8843,
+      "longitude": 107.5378
+    },
+    {
+      "code": "RN-TAMAN-KARTINI",
+      "name": "Simpang Taman Kartini",
+      "type": "intersection",
+      "latitude": -6.888,
+      "longitude": 107.5371
+    },
+    {
+      "code": "RN-DUSTIRA",
+      "name": "Node RS Dustira",
+      "type": "road_vertex",
+      "latitude": -6.8891,
+      "longitude": 107.537
+    },
+    {
+      "code": "RN-BAROS-HISTORICH",
+      "name": "Node The Historich Baros",
+      "type": "road_vertex",
+      "latitude": -6.8864,
+      "longitude": 107.539
+    },
+    {
+      "code": "RN-PONCOL-PUSDIKPAL",
+      "name": "Simpang Poncol Pusdikpal",
+      "type": "intersection",
+      "latitude": -6.8872,
+      "longitude": 107.5423
+    },
+    {
+      "code": "RN-PASIR-KUMELI",
+      "name": "Node Pasir Kumeli",
+      "type": "road_vertex",
+      "latitude": -6.8906,
+      "longitude": 107.5392
+    },
+    {
+      "code": "RN-SUDIRMAN",
+      "name": "Simpang Jalan Sudirman",
+      "type": "intersection",
+      "latitude": -6.8901,
+      "longitude": 107.5342
+    },
+    {
+      "code": "RN-KERKHOF-LEUWIGAJAH",
+      "name": "Node Kerkhof Leuwigajah",
+      "type": "road_vertex",
+      "latitude": -6.9057,
+      "longitude": 107.5291
+    },
+    {
+      "code": "RN-CIREUNDEU",
+      "name": "Node Cireundeu",
+      "type": "road_vertex",
+      "latitude": -6.92,
+      "longitude": 107.5193
+    }
+  ],
+  "edges": [
+    {
+      "code": "RE-ALUN-LOJI",
+      "fromCode": "RN-ALUN-ALUN-CIMAHI",
+      "toCode": "RN-LOJI",
+      "distanceKm": 0.15,
+      "roadName": "Jl. Alun-alun Timur",
+      "oneway": false,
+      "vehicleAccessible": true
+    },
+    {
+      "code": "RE-ALUN-PENDOPO",
+      "fromCode": "RN-ALUN-ALUN-CIMAHI",
+      "toCode": "RN-PENDOPO",
+      "distanceKm": 0.12,
+      "roadName": "Jl. Kaum",
+      "oneway": false,
+      "vehicleAccessible": true
+    },
+    {
+      "code": "RE-PENDOPO-KARANGMEKAR",
+      "fromCode": "RN-PENDOPO",
+      "toCode": "RN-AMIR-MACHMUD-KARANGMEKAR",
+      "distanceKm": 0.32,
+      "roadName": "Jl. Jend. H. Amir Machmud",
+      "oneway": false,
+      "vehicleAccessible": true
+    },
+    {
+      "code": "RE-KARANGMEKAR-PUSDIKHUB",
+      "fromCode": "RN-AMIR-MACHMUD-KARANGMEKAR",
+      "toCode": "RN-PUSDIKHUB",
+      "distanceKm": 0.48,
+      "roadName": "Jl. Gatot Subroto",
+      "oneway": false,
+      "vehicleAccessible": true
+    },
+    {
+      "code": "RE-PUSDIKHUB-STASIUN",
+      "fromCode": "RN-PUSDIKHUB",
+      "toCode": "RN-STASIUN-CIMAHI",
+      "distanceKm": 0.36,
+      "roadName": "Jl. Stasiun",
+      "oneway": false,
+      "vehicleAccessible": true
+    },
+    {
+      "code": "RE-STASIUN-TAMAN-KARTINI",
+      "fromCode": "RN-STASIUN-CIMAHI",
+      "toCode": "RN-TAMAN-KARTINI",
+      "distanceKm": 0.43,
+      "roadName": "Jl. Dustira",
+      "oneway": false,
+      "vehicleAccessible": true
+    },
+    {
+      "code": "RE-TAMAN-KARTINI-DUSTIRA",
+      "fromCode": "RN-TAMAN-KARTINI",
+      "toCode": "RN-DUSTIRA",
+      "distanceKm": 0.14,
+      "roadName": "Jl. Dustira",
+      "oneway": false,
+      "vehicleAccessible": true
+    },
+    {
+      "code": "RE-STASIUN-HISTORICH",
+      "fromCode": "RN-STASIUN-CIMAHI",
+      "toCode": "RN-BAROS-HISTORICH",
+      "distanceKm": 0.29,
+      "roadName": "Jl. Gatot Subroto",
+      "oneway": false,
+      "vehicleAccessible": true
+    },
+    {
+      "code": "RE-HISTORICH-PONCOL",
+      "fromCode": "RN-BAROS-HISTORICH",
+      "toCode": "RN-PONCOL-PUSDIKPAL",
+      "distanceKm": 0.38,
+      "roadName": "Jl. Poncol Selatan",
+      "oneway": false,
+      "vehicleAccessible": true
+    },
+    {
+      "code": "RE-HISTORICH-PASIR-KUMELI",
+      "fromCode": "RN-BAROS-HISTORICH",
+      "toCode": "RN-PASIR-KUMELI",
+      "distanceKm": 0.47,
+      "roadName": "Jl. Pasir Kumeli",
+      "oneway": false,
+      "vehicleAccessible": true
+    },
+    {
+      "code": "RE-PASIR-KUMELI-DUSTIRA",
+      "fromCode": "RN-PASIR-KUMELI",
+      "toCode": "RN-DUSTIRA",
+      "distanceKm": 0.31,
+      "roadName": "Jl. Baros",
+      "oneway": true,
+      "vehicleAccessible": true
+    },
+    {
+      "code": "RE-TAMAN-KARTINI-SUDIRMAN",
+      "fromCode": "RN-TAMAN-KARTINI",
+      "toCode": "RN-SUDIRMAN",
+      "distanceKm": 0.34,
+      "roadName": "Jl. Jend. Sudirman",
+      "oneway": false,
+      "vehicleAccessible": true
+    },
+    {
+      "code": "RE-SUDIRMAN-KERKHOF",
+      "fromCode": "RN-SUDIRMAN",
+      "toCode": "RN-KERKHOF-LEUWIGAJAH",
+      "distanceKm": 2.05,
+      "roadName": "Jl. Kerkhof",
+      "oneway": false,
+      "vehicleAccessible": true
+    },
+    {
+      "code": "RE-KERKHOF-CIREUNDEU",
+      "fromCode": "RN-KERKHOF-LEUWIGAJAH",
+      "toCode": "RN-CIREUNDEU",
+      "distanceKm": 2.1,
+      "roadName": "Jl. Cireundeu",
+      "oneway": false,
+      "vehicleAccessible": true
+    },
+    {
+      "code": "RE-LOJI-SERVICE-ONLY",
+      "fromCode": "RN-LOJI",
+      "toCode": "RN-PUSDIKHUB",
+      "distanceKm": 0.88,
+      "roadName": "Gang layanan non kendaraan",
+      "oneway": false,
+      "vehicleAccessible": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "seed": "npm --prefix backend run seed",
+    "backend:seed": "npm --prefix backend run seed",
+    "backend:build": "npm --prefix backend run build",
+    "frontend:build": "npm --prefix frontend run build"
+  },
+  "dependencies": {
+    "@neon/config": "^1.7.2",
+    "@neon/env": "^1.4.3",
+    "@nestjs/mapped-types": "^2.1.1",
+    "axios": "^1.15.2",
+    "bcryptjs": "^3.0.3",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.15.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.10",
+    "tailwindcss": "^4.2.4"
+  }
+}

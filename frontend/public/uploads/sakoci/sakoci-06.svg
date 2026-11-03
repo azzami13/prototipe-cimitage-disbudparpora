@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe6f7"/><stop offset="1" stop-color="#f1f8e9"/></linearGradient></defs>
+<rect width="800" height="450" fill="url(#g)"/><rect y="340" width="800" height="110" fill="#5e6770"/><rect y="388" width="800" height="6" fill="#f4f4f4" opacity=".7" stroke-dasharray="40 30"/>
+<path d="M0 340 q80 -70 160 -30 t170 -20 t200 -10 t270 -10 v70 h-800z" fill="#86b894" opacity=".6"/>
+<rect x="70" y="130" width="640" height="200" rx="34" fill="#0f766e"/><rect x="70" y="262" width="640" height="26" fill="#fde68a"/>
+<path d="M70 150 q0 -48 60 -48 h470 q60 0 100 40 l10 30 h-640z" fill="#0f766e"/><rect x="110" y="104" width="520" height="14" rx="7" fill="#fde68a"/>
+<rect x="130" y="168" width="64" height="62" rx="8" fill="#bfe3f2" stroke="#1d3a46" stroke-width="3"/><rect x="212" y="168" width="64" height="62" rx="8" fill="#bfe3f2" stroke="#1d3a46" stroke-width="3"/><rect x="294" y="168" width="64" height="62" rx="8" fill="#bfe3f2" stroke="#1d3a46" stroke-width="3"/><rect x="376" y="168" width="64" height="62" rx="8" fill="#bfe3f2" stroke="#1d3a46" stroke-width="3"/><rect x="458" y="168" width="64" height="62" rx="8" fill="#bfe3f2" stroke="#1d3a46" stroke-width="3"/><rect x="540" y="168" width="64" height="62" rx="8" fill="#bfe3f2" stroke="#1d3a46" stroke-width="3"/>
+<rect x="656" y="168" width="40" height="70" rx="8" fill="#bfe3f2" stroke="#1d3a46" stroke-width="3"/>
+<circle cx="698" cy="278" r="12" fill="#fff6b0"/><rect x="72" y="270" width="16" height="14" rx="3" fill="#e53935"/>
+<rect x="260" y="268" width="260" height="30" rx="8" fill="#fff"/><text x="390" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="800" fill="#0f766e">SAKOCI HERITAGE</text>
+<circle cx="150" cy="318" r="34" fill="#1d1d1d"/><circle cx="150" cy="318" r="16" fill="#9aa3a8"/><circle cx="560" cy="318" r="34" fill="#1d1d1d"/><circle cx="560" cy="318" r="16" fill="#9aa3a8"/>
+<rect x="300" y="236" width="140" height="22" rx="4" fill="#fff"/><text x="370" y="253" text-anchor="middle" font-family="monospace" font-size="15" font-weight="700" fill="#111">D 1385 CMH</text>
+<text x="30" y="52" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#143d2d">SKC-06</text>
+<text x="30" y="78" font-family="Arial,sans-serif" font-size="14" fill="#31514a">Kendaraan wisata heritage Kota Cimahi · ilustrasi demo</text>
+</svg>

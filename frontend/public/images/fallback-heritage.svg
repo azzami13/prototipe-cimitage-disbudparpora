@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Gambar Cimahi Heritage">
+  <rect width="800" height="500" fill="#e8f1ed"/>
+  <path d="M170 390h460v30H170zm55-175h350l55 55H170z" fill="#1a3a2e"/>
+  <path d="M225 270h55v120h-55zm100 0h55v120h-55zm100 0h55v120h-55zm100 0h50v120h-50z" fill="#fff" opacity=".9"/>
+  <circle cx="400" cy="150" r="48" fill="#38bdf8" opacity=".75"/>
+  <text x="400" y="465" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#1a3a2e">Cimahi Heritage</text>
+</svg>
